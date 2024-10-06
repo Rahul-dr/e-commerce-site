@@ -1,0 +1,52 @@
+.offers{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg,rgb(254, 254, 254) 0%,rgb(218, 166, 166) 60%);
+}
+.offers-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offers-left h1{
+    color: black;
+    font-size: 67px;
+    font-weight: 500;
+    /* line-height: 1.2; */
+
+}
+.offers-left p{
+   color: black;
+   font-size: 22px;
+   font-weight: 500;
+   /* line-height: 1.2; */
+
+}
+.offers-left button{
+    width: 250px;
+    height: 70px;
+    border-radius: 60px;
+    background:red;
+    border: none;
+    color: white;
+    font: size 26px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.offers-right{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.offers-right img{
+    width: 90%;
+    height: auto;
+}

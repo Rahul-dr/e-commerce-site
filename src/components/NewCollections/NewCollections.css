@@ -1,0 +1,48 @@
+
+.new-collections{
+     display: flex;
+     flex-direction: column;
+     /* flex-wrap: wrap; */
+     gap: 20px;
+     align-items: center;
+     margin-bottom: 100px;
+     /* height: 90vh; */
+}
+
+.new-collections h1{
+     color: #000000;
+     font-size: 50px;
+     font-weight: 500;
+     
+}
+     
+.new-collections hr{
+     width: 200px;
+     height: 6px;
+     border-radius: 10px;
+     background: black;
+}
+
+.collections {
+     display:flex;
+     flex-wrap: wrap;
+     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+     justify-content: center;
+     gap: 30px; 
+}
+
+.collection-item {
+     flex: 0 1 200px; /* Set a fixed width for each collection item */
+     text-align: center; /* Center text within each item */
+}
+
+.collection-item img {
+     width: 100%; /* Ensure image fits the container */
+     height: auto;
+}
+
+/* .item {
+ height: 300px; 
+ width: 200px;
+} */
+     
